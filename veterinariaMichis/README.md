@@ -70,4 +70,5 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 <a href="https://laravel.com/docs/8.x">Laravel (V8.20.1)</a></br>
 <a href="https://getbootstrap.com/">Bootstrap (V4.5.x)</a></br>
 
+<div><h2>se anexó la base de datos utilizada en la raiz, dentro de una carpeta llamada, dbMichis</h2></div>
 </p>
