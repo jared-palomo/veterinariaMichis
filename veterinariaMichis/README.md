@@ -60,3 +60,15 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## LAS VERSIONES DE LOS SOFTWARE INSTALADOS PARA ESTE PROYECTO SON LOS SIGUIENTES:
+
+<p align="center">
+<a href="https://www.apachefriends.org/es/index.html">XAMPP y PHP (V8.0.0)</a></br>
+<a href="https://nodejs.org/es/">NodeJs (V14.15.4)</a></br>
+<a href="https://getcomposer.org/">Composer (V2.0.8)</a></br>
+<a href="https://laravel.com/docs/8.x">Laravel (V8.20.1)</a></br>
+<a href="https://getbootstrap.com/">Bootstrap (V4.5.x)</a></br>
+
+<div><h2>se anexó la base de datos utilizada en la raiz, dentro de una carpeta llamada, dbMichis</h2></div>
+</p>
