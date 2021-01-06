@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::resource('citas', 'App\Http\Controllers\CitaController');
+Route::resource('pacientes', 'App\Http\Controllers\PacienteController');
+Route::resource('veterinarios','App\Http\Controllers\VeterinarioController');
+Route::resource('mascotas','App\Http\Controllers\MascotaController');
+// Route::get('/inicio', 'App\Http\Controllers\InicioController@index');
+
+// Route::resource('/', 'App\Http\Controllers\VeterinarioController');
