@@ -1,4 +1,4 @@
-@extends('layouts.vistapadre');
+@extends('layouts.vistapadre')
 
 @section('contenidoprincipal')
 <h1>Index</h1>

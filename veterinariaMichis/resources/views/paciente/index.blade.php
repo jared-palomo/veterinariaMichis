@@ -44,10 +44,7 @@
                                 <button class="btn btn-danger">Borrar</button>
                               </div>
                             </form>
-                          </div>
-                        
-
-                          
+                          </div>                          
                         </td>
                     </tr>
                 @endforeach

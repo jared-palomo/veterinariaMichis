@@ -10,11 +10,21 @@
     @yield('css')
 
     <title>Veterinaria Los Michis</title>
+
+    <style>
+      body{
+        background-image: url('/img/bgpet.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
   </head>
+
   <body>
-    <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-end">
-            <a class="navbar-brand" href="#"><img src="/resources/img/Cat.png" alt="foto_michis"  width="60px"></a>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top justify-content-end">
+            <a class="navbar-brand" href="{{ url('/') }}"><img src='/img/Cat.png' alt="foto_michis"  width="60px"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -35,7 +45,7 @@
                 </ul>
                 <div class="ml-auto">
                     <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Buscar</button>
                     </form>
                 </div>
@@ -43,6 +53,7 @@
           </nav>
 
           @yield('contenidoprincipal')
+    
     </div>
 
     @yield('js')
